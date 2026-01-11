@@ -25,9 +25,9 @@
 
 🖼️Скриншоты:
 
-(screenshots/a.png)
-(screenshots/b.png)
-(screenshots/c.png)
+![](screenshots/a.png)
+![](screenshots/b.png)
+![](screenshots/c.png)
 
 
 

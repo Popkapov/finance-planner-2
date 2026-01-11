@@ -166,7 +166,7 @@ class DatabaseManager:
                     amount=row['amount'],
                     operation_type=OperationType(row['type']),
                     category=category,
-                    date=datetime.strptime(row['date'], "%Y-%m-%d %H:%M:%S"),
+                    date=datetime.strptime(row['date'].split('.')[0], "%Y-%m-%d %H:%M:%S"),
                     description=row['description'] or ""
                 )
                 operations.append(operation)

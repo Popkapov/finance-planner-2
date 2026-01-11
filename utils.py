@@ -5,7 +5,7 @@
 
 import re
 from datetime import datetime, date
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List
 from decimal import Decimal, InvalidOperation
 
 class Validator:
